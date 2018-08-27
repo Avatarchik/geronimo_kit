@@ -4,12 +4,12 @@ using UnityEngine;
 public class MenuPanel : BasicPanel
 {
     [Header("Components")]
-    [SerializeField] private BasicButton BtnHome;
-    [SerializeField] private BasicButton BtnProfile;
-    [SerializeField] private BasicButton BtnAboutUs;
-    [SerializeField] private BasicButton BtnPortfolio;
-    [SerializeField] private BasicButton BtnSettings;
-    [SerializeField] private BasicButton BtnLogout;
+    [SerializeField] private BasicMenuButton BtnHome;
+    [SerializeField] private BasicMenuButton BtnProfile;
+    [SerializeField] private BasicMenuButton BtnAboutUs;
+    [SerializeField] private BasicMenuButton BtnPortfolio;
+    [SerializeField] private BasicMenuButton BtnSettings;
+    [SerializeField] private BasicMenuButton BtnLogout;
 
     public event Action OnHome;
     public event Action OnProfile;

@@ -140,6 +140,7 @@ public class MainController : MonoBehaviour
     {
         MenuPanel.SetActive(false);
 
+        SettingsPanel.DisableParams();
         SettingsPanel.SetActive(true);
     }
 

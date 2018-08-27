@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class BasicButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler 
+public class BasicMenuButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler 
 {
     public Image ImgLine;
     public Text TxtButton;
@@ -21,7 +21,7 @@ public class BasicButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public event Action OnClick;
 
-    private void Start()
+    protected virtual void Start()
     {
         _widthButton = GetComponent<RectTransform>().rect.width;
         _hightButton = GetComponent<RectTransform>().rect.height;
@@ -92,7 +92,13 @@ public class BasicButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     {
         print("Click: " + gameObject.name);
 
-        yield return new WaitForSeconds(_timeAnim + 0.1f);
+        yield return new WaitForSeconds(_timeAnim + 0.12f);
         if (OnClick != null) { OnClick(); }
+    }
+
+    private void OnEnable()
+    {
+        _enter = false;
+        _exit = true;
     }
 }
