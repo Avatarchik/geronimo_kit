@@ -1186,6 +1186,20 @@ Prefab:
       propertyPath: m_Name
       value: About Us Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 1027156764129808, guid: c7c16633fb9513449aca19f7f9c7d0ab, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224348079473605102, guid: c7c16633fb9513449aca19f7f9c7d0ab,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 134.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224348079473605102, guid: c7c16633fb9513449aca19f7f9c7d0ab,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 27.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7c16633fb9513449aca19f7f9c7d0ab, type: 2}
   m_IsPrefabAsset: 0
@@ -1290,6 +1304,15 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1317353862243934, guid: 4b209c85e2c88c14b829a11b52067dfa, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224814879918506024, guid: 4b209c85e2c88c14b829a11b52067dfa,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 162
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b209c85e2c88c14b829a11b52067dfa, type: 2}
@@ -1707,6 +1730,10 @@ Prefab:
     - target: {fileID: 1146869706648434, guid: 4563128eb4da75d4ca2f20ccb0b86817, type: 2}
       propertyPath: m_Name
       value: Home Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726378756761838, guid: 4563128eb4da75d4ca2f20ccb0b86817, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4563128eb4da75d4ca2f20ccb0b86817, type: 2}
