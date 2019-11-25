@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/App/Scenes/Start.unity
+    path: Assets/Geronimo Kit/Scenes/Start.unity
     guid: b34bf25fb046edc45a471b85c2a2ca92
   - enabled: 1
-    path: Assets/App/Scenes/Main.unity
+    path: Assets/Geronimo Kit/Scenes/Main.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
