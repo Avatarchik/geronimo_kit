@@ -43,7 +43,7 @@ Animation UI and page switching is controlled in code. The project has no exact 
 * /App/Textures/icons/logo/     - [Iconfinder.com](https://www.iconfinder.com/)
 
 ## Compatibility
-Geronimo Kit is written in Unity 2018.2.1f1. Also works with versions since 5.x.x, 2017.x.x.
+Geronimo Kit is written in Unity 2019.3.0b10. Also works with versions since 5.x.x, 201x.x.x.
 
 ## License
 This project is licensed under the BSD - see the [LICENSE.md](https://github.com/dworkinnbarimen/geronimo_kit/blob/master/LICENSE) file for details
